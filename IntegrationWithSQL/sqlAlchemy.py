@@ -45,16 +45,16 @@ print(inspector_engine.default_schema_name)
 
 with Session(engine) as session:
     julia = Cliente(
-        nome="Julia Lellis",
+        nome="Luisa Frazão",
         cpf="123456789-00",
-        endereco="Qr. 55, Rua 593, Apt. 55 Bloco J, Aguas Claras, Distrito Federal.",
+        endereco="Qr. 555, Rua 593, Numero. 555 Condomínio Mediterrane, Lago Sul, Distrito Federal.",
         conta=[Conta(tipo="CP", agencia="0001", num="5574-0", saldo=7000.00)]
     )
 
     cinthia = Cliente(
-        nome="Cinthia Bello",
+        nome="Fernanda Pascal",
         cpf="123456789-01",
-        endereco="Qr. 55, Rua 593, Numero. 55 Condominio Jardins, Jardim Botânico, Distrito Federal.",
+        endereco="Qr. 555, Rua 555, Apt. 555 Bloco J Condomínio Porto Rico, St. Sudoeste, Distrito Federal.",
         conta=[Conta(tipo="CC", agencia="0001", num="5575-0", saldo=9000.00)]
     )
 
