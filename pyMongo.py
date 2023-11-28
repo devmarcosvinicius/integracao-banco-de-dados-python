@@ -1,8 +1,9 @@
 import pprint
+import os
 
 from pymongo import MongoClient
 
-client = MongoClient("connection string goes here...")
+client = MongoClient(os.environ['MONGO_STRING_CONNECTION'])
 db = client.clientes
 
 new_post = [
