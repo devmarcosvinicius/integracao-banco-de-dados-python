@@ -69,7 +69,7 @@ with Session(engine) as session:
     session.commit()
 
 print("\n=-=-=-= recuperando clientes por nome =-=-=-=")
-stmt_name = select(Cliente).where(Cliente.nome.in_(['Julia Lellis', 'Cinthia Bello', 'Marcos Vinicius']))
+stmt_name = select(Cliente).where(Cliente.nome.in_(['Fernanda Pascal', 'Marcos Vinicius']))
 
 for cliente in session.scalars(stmt_name):
     print(cliente)
