@@ -1,5 +1,19 @@
-from sqlalchemy.orm import *
-from sqlalchemy import *
+from sqlalchemy.orm import (
+  declarative_base,
+  Session,
+  relationship
+)
+
+from sqlalchemy import (
+  Column,
+  select,
+  func,
+  Integer,
+  String,
+  ForeignKey,
+  create_engine,
+  inspect,
+)
 
 Base = declarative_base()
 
