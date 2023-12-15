@@ -7,6 +7,7 @@ Para executar este projeto, você precisa ter instalado:
 Python 3.9 ou superior
 MySQL 8.0 ou superior
 PyMySQL 1.0.2 ou superior
+pymongo 4.6.0
 
 ## Instalação
 Para instalar as dependências do projeto, execute o seguinte comando no terminal:
